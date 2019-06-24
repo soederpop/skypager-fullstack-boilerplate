@@ -8,6 +8,16 @@ export default class App extends Component {
     runtime: types.object,
   }
 
+  static childContextTypes = {
+    runtime: types.object
+  }
+
+  getChildContext() {
+    return {
+      runtime: this.props.runtime
+    }
+  }
+
   render() {
     return (
       <BrowserRouter>

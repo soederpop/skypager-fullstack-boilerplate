@@ -10,6 +10,6 @@ export default class HomePage extends Component {
     
   }
   render() {
-    return <Container />
+    return <Container>Home Page!!</Container>
   }
 }
