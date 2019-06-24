@@ -1,0 +1,41 @@
+{
+  "name": "@skypager/boilerplates-fullstack",
+  "version": "1.0.0",
+  "description": "skypager fullstack boilerplate",
+  "author": "Jon Soeder <jon@chicago.com>",
+  "homepage": "https://skypager.io",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production skypager serve --esm",
+    "dev": "cross-env NODE_ENV=development skypager serve --esm --hot",
+    "build": "skypager build --app-only",
+    "postbuild": "skypager hash-build",
+    "watch": "skypager watch",
+    "console": "skypager console",
+    "test:app": "skypager test --mocha --timeout 10000",
+    "test": "skypager start-and-test --test test:app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@skypager/cli": "^1.1.5",
+    "@skypager/node": "^1.1.5",
+    "@skypager/webpack": "^1.1.5",
+    "@skypager/web": "^1.1.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.3.11",
+    "react-router-dom": "^4.3.1",
+    "semantic-ui-react": "^0.87.2"
+  },
+  "skypager": {
+    "buildFolder": "build",
+    "category": "apps",
+    "projectType": "webapp"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

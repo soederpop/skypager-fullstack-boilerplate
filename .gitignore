@@ -1,0 +1,7 @@
+secrets/
+node_modules/
+lib/
+build/
+*.log
+.env
+.npmrc
