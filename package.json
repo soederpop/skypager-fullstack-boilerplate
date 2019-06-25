@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@skypager/cli": "^1.1.5",
+    "@skypager/cli": "^1.2.0",
     "@skypager/node": "^1.1.5"
   },
   "devDependencies": {

@@ -1061,10 +1061,10 @@
     exenv "^1.2.2"
     prop-types "^15.6.2"
 
-"@skypager/cli@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@skypager/cli/-/cli-1.1.5.tgz#74ea8c63f999b5a80107861e923c27998e5a1cee"
-  integrity sha512-5g4Q8tQAgJu0UW7RnxRl0KLJ40G6h+8//cCKFZbVq67jG8nS4nmOhTZGWZwcZqHvcfh4U9PZTcAnO5K9nTQJmA==
+"@skypager/cli@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@skypager/cli/-/cli-1.2.0.tgz#cbf3854e3a6bf4adf213d91536febb938194d752"
+  integrity sha512-M7u3QlFP4pS2jJ+s9eAzA1yzkC6Su5002sbmtYJywdDG4FIGhfC1BiSz53VxJIDBx8qa7miUI6NfsXuxTqwxDw==
   dependencies:
     "@babel/register" "^7.2.0"
     "@babel/runtime" "^7.3.1"
