@@ -10,13 +10,13 @@ Each of these different "apps" use the [Skypager Runtime](https://github.com/sky
 
 ## Single Page App
 
-To launch a local development server, which will let you edit the [code in src](src) and see the changes and get immediate feedback,
+To launch a local development server, which will let you edit the [code in src](src) and see the changes and get immediate feedback in the web browser.
 
 ```shell
 $ yarn dev
 ```
 
-To build a production build, which can be served by the history api fallback for single page apps
+To build a production build, which can be uploaded and served by the history api fallback for single page apps
 
 ```shell
 $ yarn build
@@ -25,6 +25,8 @@ $ yarn build
 ## Node.js Server
 
 To start this app, you can run `yarn start`. Here are the different components involved in the server
+
+This server will serve the single page app, and any API endpoints you define.
 
 ### History Fallback
 
